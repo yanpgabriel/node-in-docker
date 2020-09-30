@@ -28,6 +28,6 @@ Esse comando apaga todo **este** ambiente criado do docker como se não tivesse 
 
 Nesse projeto vem um "Hello World!" em [express](https://expressjs.com/pt-br/starter/hello-world.html) e [nodemon](https://nodemon.io/) para o live reload.
 
-===
+---
 
 Necessidade: [Lucas](https://github.com/lcaresia)
