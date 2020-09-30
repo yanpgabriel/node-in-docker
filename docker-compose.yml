@@ -1,0 +1,14 @@
+version: '3.8'
+
+services: 
+  nodejs:
+    build: .
+    image: hybrid/node
+    command: npm start
+    ports:
+      - "6969:3000"
+    working_dir: /home/projeto
+    volumes:
+      - .:/home/projeto
+    restart: always
+    container_name: node_server
